@@ -3,6 +3,9 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": { /* Crear un alias para los archivos de la carpeta src */
+      "@cv": [
+        "./cv.json"
+      ],
       "@/*": [
         "src/*"
       ]
