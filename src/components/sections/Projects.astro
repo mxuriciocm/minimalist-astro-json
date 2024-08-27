@@ -16,9 +16,7 @@ import Section from "../Section.astro";
                   <a href={url} title={`Ver el proyecto ${name}`}>
                     {name}
                   </a>
-                  {
-                    isActive && <span>&bull;</span>
-                  }
+                  {isActive && <span>&bull;</span>}
                 </h3>
                 <p>{description}</p>
               </header>
@@ -61,6 +59,9 @@ import Section from "../Section.astro";
   }
 
   article h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: -.025px;
     margin-bottom: 4px;
   }
 
@@ -74,8 +75,8 @@ import Section from "../Section.astro";
     margin-bottom: 4px;
   }
 
-  article h3 span{
-    color: rgb(0, 255, 64);
+  article h3 span {
+    color: rgb(0, 188, 47);
   }
 
   footer {
